@@ -1,21 +1,29 @@
-# Day011 — Recall Loop Builder
+# Day011 — Concept Gap Mapper
 
-> 学習内容の復習タイミングを自動で組み立てる学習支援ツール。（話題:HN Frontpage）
+> つまずきポイントを前提不足として可視化する学習診断ツール。（話題:HN Frontpage）
 >
 > Complexity Tier: small
 >
 > Selected Components: none
+>
+> Family / Mechanic: knowledge_gap / dependency_mapping
+>
+> Input -> Output: confusion_notes -> gap_map
+>
+> Audience Promise: clearer_study_path
 
 ## 使い方
 
 1. ページを開く
-2. 入力欄にテキストを入れる
-3. 実行して結果を確認する
+2. 曖昧ポイントを入力する
+3. 「マップ化する」を実行する
+4. 前提不足マップを確認して必要に応じて再入力する
 
 ## Story
 
 - [制作ストーリー](./STORY.md)
 - Complexity hint: Keep the tool single-purpose and stable. Add at most one safe enhancement component.
+- Publish hook: 何が足りないかを前提マップで見える化
 
 ## Demo
 
